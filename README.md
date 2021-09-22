@@ -1,12 +1,8 @@
-## MVC starter project
+## Persoonlijke Github's
 
-Gebruik dit voorbeeld project als uitfgangspunt voor het huidige project. Hiermee leer je werken volgens de MVC structuur (model view controller).
-Dit project maakt gebruikt van een paar *third party* libraries. Dit is kant en klare *open-source* code van andere developers die je gratis mag gebruiken! Dat scheelt veel uren zelf code schrijven.
 
-## LET OP: eerst dit doen!
-Je moet PHP en composer op de command line werkend hebben. 
-Heb je dat nog niet werkend, [kijk dan op deze pagina](http://bap.mediadeveloper.amsterdam/md1/periode-4/opdrachten/13-php-en-composer-installatie/) hoe je dat werkend krijgt en ga dan pas verder.
 
+<<<<<<< HEAD
 ### Installeren van externe code via composer
 Om die *third party* libraries te installeren heb je een werkende PHP op de command-line nodig en ook het programma *composer*.
 Zorg dat je dat eerst hebt geïnstalleerd en voer in de hoofdmap van dit project dan dit commando uit:  
@@ -37,3 +33,8 @@ test test
  
  
  
+=======
+https://github.com/zarkodjurdjevic/f2m5-social-responsibility
+https://github.com/MiloDijkman/f2m5-social-responsibility
+https://github.com/TiesHogenboom/f2m5-social-responsibility
+>>>>>>> 7fb9db90059083069eb1977df46dfdb8c041cf7b
