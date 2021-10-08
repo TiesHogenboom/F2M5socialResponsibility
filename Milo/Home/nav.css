@@ -1,0 +1,282 @@
+
+
+.homepagesection{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepageheader{
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1vw 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepageheader .logo{
+  position: relative;
+  max-width: 300px;
+}
+
+.homepageheader .navigation{
+  position: relative;
+  display: flex;
+}
+
+.homepageheader .navigation li{
+  list-style: none;
+}
+
+.homepageheader .navigation li a{
+  display: inline-block;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.hoveranimationlink{
+  transition: 0.3s;
+  transform: scale(1);
+}
+
+.hoveranimationlink:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.hoveranimationlink:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+@media (max-width: 991px)
+{
+  .circle{
+    display: none;
+  }
+  .homepageheader{
+    padding: 40px;
+  }
+  .homepagesection{
+    padding: 150px 40px;
+  }
+  .sci{
+    left: 40px;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .content .textBox,
+  .content .imgBox{
+    max-width: 100%;
+  }
+  .swiper-slide{
+    height: 300px;
+  }
+  .homepageheader .navigation{
+    display: none;
+  }
+  .homepageheader .navigation.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6f6d28;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  .homepageheader .navigation li a{
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  .toggle{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(https://cdn.discordapp.com/attachments/816448703808012308/874075070107119688/menu-button-of-three-horizontal-lines.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  .toggle.active{
+    position: fixed;
+    right: 40px;
+    background: url(https://cdn.discordapp.com/attachments/816448703808012308/874064164119777290/Crosss.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.glow-on-hover {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #6f6d28;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #33e6cc, #7a00ff, #33e6cc, #7a00ff, #33e6cc, #7a00ff, #33e6cc, #7a00ff, #33e6cc);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #6f6d28
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #6f6d28;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+
+
+:root{
+  --header-height: 3rem;
+  --font-semi: 600;
+}
+
+/*===== Colores =====*/
+:root{
+  --first-color: #6f6d28;
+  --second-color: #000;
+}
+
+/*===== Fuente y tipografia =====*/
+:root{
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+}
+@media screen and (min-width: 768px){
+  :root{
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*===== Margenes =====*/
+:root{
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*===== z index =====*/
+:root{
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+  transition: 0.1s;
+  box-sizing: border-box;
+}
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px){
+  .nav{
+    height: calc(var(--header-height) + 1rem);
+  }
+  .nav__list{
+    display: flex;
+    padding-top: 0;
+  }
+  .nav__item{
+    margin-left: var(--mb-6);
+    margin-bottom: 0;
+  }
+  .nav__toggle{
+    display: none;
+  }
+  .nav__link{
+    color: var(--second-color);
+  }
+
+  .home{
+    height: 100vh;
+  }
+  .home__data{
+    align-self: flex-end;
+  }
+  .home__social{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .home__social-icon{
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+  }
+  .home__img{
+    width: 457px;
+    bottom: 15%;
+  }
+}

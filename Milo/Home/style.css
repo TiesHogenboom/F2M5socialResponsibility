@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+body{
+  background-color: #F4FAFF;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: #5626CA;
+  background-color: #5626CA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F4FAFF;
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F4FAFF
+}
+
+.HomeImageCss{
+    width: 100%;
+    height: 25fr;
+}
+
+.Ontmoet{
+    margin-left: 5%;
+    font-size: 3vw !important;
+}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.circleoverons{
+  width: 100%;
+  height: 75vw;
+  position:absolute;
+  z-index: -1;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  background-color: #F4FAFF;
+  padding-top: 4em;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  transition: 0.2s;
+}
+.col:hover{
+  transition: 0.2s;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+  transform: scale(1.03);
+}
+
+.col:first-child { margin-left: 0; }
+
+.col2 {
+  background-color: #fff;
+  box-shadow: 4px 4px 2px #333;
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  transition: 0.2s;
+  
+}
+.col2:hover{
+  transition: 0.2s;
+  box-shadow: 10px 10px 5px #333;
+  transform: scale(1.03);
+}
+
+.col2:first-child { margin-left: 0; }
+
+.section, .section2{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+.profileimage{
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 100%;
+}
+
+.profileimage2{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.NaamOverOns{
+  margin-top: 0.5em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+}
+
+.DescriptionOverOns{
+   margin-top: 0.5em;
+  text-align: center;
+  font-size: 1.5vw;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 4vw;
+        font-weight: 900;
+        color: white;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .imageslide2{
+        width: 100%;
+        position: absolute;
+      }
+
+      .imageslide{
+        position: absolute;
+        z-index: -1;
+      }
+
+      
+.header {
+    grid-area: hd;
+    font-weight: 900;
+}
+.footer {
+    grid-area: ft;
+}
+.content {
+  font-weight: 900;
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sd;
+}
+
+.IrisWorkum{
+  font-weight: 800;
+  font-family: 'Noto Bold Display', sans-serif;
+}
+
+.Oprichter{
+  font-weight: 800;
+}
+
+.IrisImage{
+  width: 100%;
+  border-radius: 20%;
+}
+
+.wrapper {
+  font-size: 1.5vw;
+  margin-top: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(1vw, auto);
+    grid-template-areas:
+      "hd hd main main main main main main main"
+      "sd sd main main main main main main main"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft"
+      "sd sd ft ft   ft   ft   ft   ft   ft";
+}
+
+.meimage{
+  padding-top: 5vw;
+  width: 100%;
+  position: absolute;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card {
+  font-size: 2vw;
+  margin-top: 3vw;
+  text-shadow: 1px 1px 2px #000;
+  color: black;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Helpen{
+  text-shadow: 1px 1px 2px #3F5FFF;
+  color: #3F5FFF;
+  font-weight: 900;
+ font-family: 'Noto Bold Display', sans-serif;
+}
+
+.Onderwerpen{
+  text-shadow: 1px 1px 2px #000;
+ font-family: 'Noto Bold Display', sans-serif;
+  margin-top: 5vw;
+  text-align: center;
+}
+
+.circlehelpen{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+  .wrapper{
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;
+  }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+
+  .wrapper {
+  font-size: 4vw;
+  margin-top: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+   grid-template-areas:
+      "hd hd hd hd hd hd hd hd hd"
+      "hd hd hd hd hd hd hd hd hd"
+      "sd sd sd sd sd sd sd sd sd"
+      "sd sd sd sd sd sd sd sd sd"
+      "sd sd sd sd sd sd sd sd sd"
+      "sd sd sd sd sd sd sd sd sd"
+      "sd sd sd sd sd sd sd sd sd"
+      "main main main main   main   main   main   main   main"
+      "ft ft ft ft   ft   ft   ft   ft   ft"
+      "ft ft ft ft   ft   ft   ft   ft   ft";
+  }
+
+  .sidebar, .header, .IrisImage, .IrisWorkum, .Oprichter, .content, .footer{
+    margin-top: 5vw;
+  }
+}
+
