@@ -216,6 +216,23 @@ textarea{
 	.knop a:hover:not(.active) {
 		background-color: #111;
 	  }
+	  ::-webkit-scrollbar {
+		width: 10px
+	  }
+	  
+	  ::-webkit-scrollbar-track {
+		background: #5626CA;
+		background-color: #5626CA;
+	  }
+	  
+	  ::-webkit-scrollbar-thumb {
+		background: #F4FAFF;
+		border-radius: 10px
+	  }
+	  
+	  ::-webkit-scrollbar-thumb:hover {
+		background: #F4FAFF
+	  }
 
   
 @media screen and (max-width: 880px){

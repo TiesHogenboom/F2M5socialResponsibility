@@ -14,8 +14,9 @@
 
 <script src="script.js"></script>
 
-    <link rel="stylesheet" href="../../images/Home_Images/nav.css">
-    <link rel="stylesheet" href="../../images/Home_Images/home.css">
+    <link rel="stylesheet" href="<?php echo site_url("/css/nav.css");?>">
+    <link rel="stylesheet" href="<?php echo site_url("/css/home.css");?>">
+    <link rel="stylesheet" href="<?php echo site_url("/css/footer.css");?>">
 </head>
 
 <style>
@@ -315,5 +316,5 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 </script>
 
 </html>
-<?php $this->stop()?>
+
 
