@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?php echo site_url("/css/nav.css");?>">
     <link rel="stylesheet" href="<?php echo site_url("/css/home.css");?>">
     <link rel="stylesheet" href="<?php echo site_url("/css/footer.css");?>">
+    <
 </head>
 
 <style>

@@ -5,6 +5,7 @@
 
 
 <ul class="nav1">
+  <img src="images/Home_Images/Logo.png" alt=""></img>
   <li class="knop"><a href="#home">Home</a></li>
   <li class="knop"><a href="#news">Over ons</a></li>
   
