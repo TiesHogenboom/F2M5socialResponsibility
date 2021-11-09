@@ -4,13 +4,23 @@
 
 
 
-<ul class="nav1">
-  <img src="images/Home_Images/Logo.png" alt=""></img>
-  <li class="knop"><a href="#home">Home</a></li>
-  <li class="knop"><a href="#news">Over ons</a></li>
-  
-  <li class="knop"><a href="#about">Word Transformer</a></li>
-</ul>
+<!--<nav class="navbar">
+        <div class="brand-title"><img style="float: left;" src="/images/Home_Images/Logo.png" alt=""></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="regi" href="#">Registreren</a></li>
+
+          </ul>
+        </div>
+      </nav>-->
 
 
    
@@ -20,7 +30,7 @@
 
 
 
-<form action="" method="POST">
+<form class="frm" action="" method="POST">
 <main>
 <div class="container">
 		<div class="contact-box">
@@ -54,11 +64,11 @@
           </ul>
       </div>
       
-    </footer>
-    <footer class="footer2">
-      <p class="par1">&copy;2021 Transformers Community</p>
+</footer>
+<footer class="footer2">
+  <p class="par1">&copy;2021 Transformers Community</p>
       
-    </footer>
+</footer>
 
 
 

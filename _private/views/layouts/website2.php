@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Word Transformer</title>
     <link rel="stylesheet" href="ttps://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo site_url( '/css/transfor.css' ) ?>" media="all">
 	<?php if ( $this->section( 'css' ) ): ?>
@@ -14,10 +14,15 @@
 <body>
 <div class="container">
     <header>
-        <h1></h1>
+        
         
     </header>
     <nav>
+        <?php if ( $this->section( 'navigation' ) ): ?>
+			<?php echo $this->section( 'navigation' ) ?>
+		<?php else: ?>
+			<?php echo $this->fetch( '_navigation1' ) ?>
+		<?php endif ?>
 	
     </nav>
     <main>
