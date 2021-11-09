@@ -11,13 +11,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="/js/nav.js"></script>
 
     <link rel="stylesheet" href="<?php echo site_url("/css/nav.css");?>">
     <link rel="stylesheet" href="<?php echo site_url("/css/home.css");?>">
     <link rel="stylesheet" href="<?php echo site_url("/css/footer.css");?>">
-    <
 </head>
 
 <style>
@@ -25,49 +26,36 @@
 </style>
 
 <body>
-    <section class="homepagesection">
-        <div class="fixednav">
-            <header class="homepageheader" >
-                <a href="#"><img class="logo" src="../../images/Home_Images/Logo.png" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="1000"></a>
-                <div class="toggle" onclick="toggleMenu()"></div>
-                <ul class="navigation">
-                    <li><a href="#" class="hoveranimationlink" data-aos="zoom-in-down" data-aos-offset="0" data-aos-delay="1050">Home</a></li>
-                    <li><a href="#" class="hoveranimationlink" data-aos="zoom-in-down" data-aos-offset="0" data-aos-delay="1150">Over Ons</a></li>
-                    <li><a href="#" class="hoveranimationlink" data-aos="zoom-in-down" data-aos-offset="0" data-aos-delay="1250">Ons Werk</a></li>
-                    <li><a href="#" class="hoveranimationlink" data-aos="zoom-in-down" data-aos-offset="0" data-aos-delay="1350">Contact</a></li>
-                </ul>
-            </header>
-        </div>
-    </section>
 
-    <img class="HomeImageCss" src="../../images/Home_Images/Home.png">
+    <img class="HomeImageCss" src="../../images/Home_Images/Life.png">
 
     <h1 class="Ontmoet">Ontmoet de Transformers</h1>
 
-    <img class="circleoverons" src="../../images/Home_Images/Circle3.png">
+    <img class="circleoverons" src="../../images/Home_Images/circles2.png">
 
     <div class="section group">
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
-                <img class="profileimage" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                <img class="profileimage" src="../../images/Home_Images/amzah.webp">
+                <h2 class="NaamOverOns">Amzah Moelah</h2>
+                <p class="DescriptionOverOns">Bestuurslid</p>
+                <p class="beschijving"></p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="250">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/annebrecht.webp">
+                <h2 class="NaamOverOns">Annebregt Dijkman</h2>
+                <p class="DescriptionOverOns">Bestuurslid</p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="400">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/mariam.webp">
+                <h2 class="NaamOverOns">Mariam Badou</h2>
+                <p class="DescriptionOverOns">Bestuurslid</p>
             </div>
         </div>
     </div>
@@ -75,25 +63,52 @@
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/iris.webp">
+                <h2 class="NaamOverOns">Iris</h2>
+                <p class="DescriptionOverOns">Oprichter</p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="250">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/elwin.webp">
+                <h2 class="NaamOverOns">Elwin</h2>
+                <p class="DescriptionOverOns">Ambassadeur</p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="400">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/andrea.webp">
+                <h2 class="NaamOverOns">Andrea</h2>
+                <p class="DescriptionOverOns">Ambassadeur en social media</p>
+            </div>
+        </div>
+    </div>
+    <img class="circleoverons" src="../../images/Home_Images/circles2.png" alt="">
+    <div class="section group">
+        <div class="col span_1_of_3">
+            <div data-aos="zoom-in-up" data-aos-delay="100">
+                <img class="profileimage"
+                    src="../../images/Home_Images/sanne.webp">
+                <h2 class="NaamOverOns">Sanne</h2>
+                <p class="DescriptionOverOns">Ambassadeur en audiovisueel</p>
+            </div>
+        </div>
+        <div class="col span_1_of_3">
+            <div data-aos="zoom-in-up" data-aos-delay="250">
+                <img class="profileimage"
+                    src="../../images/Home_Images/estrella.webp">
+                <h2 class="NaamOverOns">Estrella</h2>
+                <p class="DescriptionOverOns">Ambassadeur en coach</p>
+            </div>
+        </div>
+        <div class="col span_1_of_3">
+            <div data-aos="zoom-in-up" data-aos-delay="400">
+                <img class="profileimage"
+                    src="../../images/Home_Images/sacha.webp">
+                <h2 class="NaamOverOns">Sacha</h2>
+                <p class="DescriptionOverOns">Ambassadeur en schrijver</p>
             </div>
         </div>
     </div>
@@ -101,25 +116,25 @@
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/yulia.webp">
+                <h2 class="NaamOverOns">Yulia</h2>
+                <p class="DescriptionOverOns">Grafische vormgeving Brain Boost Box</p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="250">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/evert.webp">
+                <h2 class="NaamOverOns">Evert</h2>
+                <p class="DescriptionOverOns">Audiovisueel</p>
             </div>
         </div>
         <div class="col span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="400">
                 <img class="profileimage"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png">
-                <h2 class="NaamOverOns">Name</h2>
-                <p class="DescriptionOverOns">Dit is een job text hier komt alles wat deze persoon doet</p>
+                    src="../../images/Home_Images/malambo.webp">
+                <h2 class="NaamOverOns">Malambo</h2>
+                <p class="DescriptionOverOns">Social media</p>
             </div>
         </div>
     </div>
@@ -128,19 +143,19 @@
         <div class="col2 span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
                 <img class="profileimage2"
-                    src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+                    src="../../images/Home_Images/GR1.png">
              </div>
         </div>
         <div class="col2 span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
                 <img class="profileimage2"
-                    src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+                    src="../../images/Home_Images/GR2.png">
             </div>
         </div>
         <div class="col2 span_1_of_3">
             <div data-aos="zoom-in-up" data-aos-delay="100">
                 <img class="profileimage2"
-                    src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+                    src="../../images/Home_Images/GR3.png">
             </div>
         </div>
     </div>
@@ -149,17 +164,17 @@
 
     <div class="swiper mySwiper" data-aos="fade-right">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1
+            <div class="swiper-slide">"Hé jij? Maar je ziet er altijd zo vrolijk uit!"
                 <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg" alt="">
+                <img class="imageslide" src="../../images/Home_Images/Lisa.png" alt="">
             </div>
-            <div class="swiper-slide">Slide 2
+            <div class="swiper-slide">"De sociale norm is tegenwoordig om te benadrukken hoe druk we het hebben"
                 <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg" alt="">
+                <img class="imageslide" src="../../images/Home_Images/elwin.png" alt="">
             </div>
-            <div class="swiper-slide">Slide 3
+            <div class="swiper-slide">"Ik keek alleen naar hoe het beter had gekund. Het was nooit genoeg"
                 <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg" alt="">
+                <img class="imageslide" src="../../images/Home_Images/yasmine.png" alt="">
             </div>
         </div>
         <div class="swiper-button-next"></div>
@@ -212,20 +227,29 @@ en we samen leren hoe je die momenten omzet naar kracht.
 
     <div class="swiper mySwiper" data-aos="fade-right">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1
-                <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg"
-                    alt="">
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/27.png" alt="">
             </div>
-            <div class="swiper-slide">Slide 2
-                <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg"
-                    alt="">
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/28.png" alt="">
             </div>
-            <div class="swiper-slide">Slide 3
-                <img class="imageslide2" src="../../images/Home_Images/backgroundlines2.png">
-                <img class="imageslide" src="https://i.pinimg.com/originals/2d/21/3d/2d213d36f66c318754bd4b78ab9361f1.jpg"
-                    alt="">
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/29.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/30.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/31.png" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="imageslide2" src="../../images/Home_Images/linesabove.png">
+                <img class="imageslide" src="../../images/Home_Images/32.png" alt="">
             </div>
         </div>
         <div class="swiper-button-next"></div>
@@ -259,6 +283,70 @@ en we samen leren hoe je die momenten omzet naar kracht.
         <div class="card" data-aos="fade-right">Grenzen aangeven.</div>
 
     </div>
+
+    <br><br><br>
+
+    <footer class="footer-distributed">
+ 
+        <div class="footer-left">
+        
+        <h3>Transformers<span> Community</span></h3>
+        
+        <p class="footer-links">
+        <a href="#">Home</a>
+        ·
+        <a href="#">Over Ons</a>
+        ·
+        <a href="#">Regristreren</a>
+        ·
+        <a href="#">Inloggen</a>
+        ·
+        <a href="#">Word Transformer</a>
+        ·
+        <a href="#">Contact</a>
+        </p>
+        
+        <p class="footer-company-name">Media College &copy; 2021</p>
+        </div>
+        
+        <div class="footer-center">
+        
+        <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Media College</span> Amsterdam, Nederland</p>
+        </div>
+        
+        <div>
+        <i class="fa fa-phone"></i>
+        <p>+1 111 111111</p>
+        </div>
+        
+        <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">ma-web@amsterdam.nl</a></p>
+        </div>
+        
+        </div>
+        
+        <div class="footer-right">
+        
+        <p class="footer-company-about">
+        <span>Over ons bedrijf</span>
+        Je staat er niet alleen voor. Wij gaan samen een oplossing zoeken
+        </p>
+        
+        <div class="footer-icons">
+        
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+        
+        </div>
+        
+        </div>
+ 
+    </footer>
         
     <!-- Script Libaries -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
@@ -285,37 +373,6 @@ en we samen leren hoe je die momenten omzet naar kracht.
         },
     });
 
-    /*===== MENU SHOW =====*/ 
-    
-const showMenu = (toggleId, navId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId)
-
-    if(toggle && nav){
-        toggle.addEventListener('click', ()=>{
-            nav.classList.toggle('show')
-        })
-    }
-}
-showMenu('nav-toggle','nav-menu')
-
-/*===== ACTIVE AND REMOVE MENU =====*/
-const navLink = document.querySelectorAll('.nav__link');   
-
-function linkAction(){
-  /*Active link*/
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
-  
-  /*Remove menu mobile*/
-  const navMenu = document.getElementById('nav-menu')
-  navMenu.classList.remove('show')
-}
-navLink.forEach(n => n.addEventListener('click', linkAction));
-
-
 </script>
 
 </html>
-
-

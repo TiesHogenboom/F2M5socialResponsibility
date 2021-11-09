@@ -2,7 +2,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+</style>
 
 <!--<nav class="navbar">
         <div class="brand-title"><img style="float: left;" src="/images/Home_Images/Logo.png" alt=""></div>
@@ -59,7 +61,7 @@
           <ul class="socials">
             <li><a href="https://www.instagram.com/transformer.community/"><i class="fa fa-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/transformers.community"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fatwitter"></i></a></li>
             <li><a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw"><i class="fa fa-youtube"></i></a></li>
           </ul>
       </div>

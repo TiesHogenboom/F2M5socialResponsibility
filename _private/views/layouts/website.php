@@ -16,14 +16,12 @@
 </head>
 <body>
 <div class="container">
-    <header>
-        <h1>Social Responsibility</h1>
-    </header>
+    
     <nav>
 		<?php if ( $this->section( 'navigation' ) ): ?>
 			<?php echo $this->section( 'navigation' ) ?>
 		<?php else: ?>
-			<?php echo $this->fetch( '_navigation' ) ?>
+			<?php echo $this->fetch( '_navigation1' ) ?>
 		<?php endif ?>
     </nav>
     <main>

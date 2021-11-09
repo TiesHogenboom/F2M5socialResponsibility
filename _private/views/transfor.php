@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="styles.css">
       <script src="script.js" defer></script>
       <title>Responsive Navbar</title>
+      <script src="/js/nav.js"></script>
     </head>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
@@ -54,7 +55,7 @@ en help anderen<br> om de beste versie van zichzelf te zijn.<br>
 
       </div>
       <div class="ali2">
-        <h1 class="a3" style="color: white;">Draag ook bij aan een samenleving waarin<br> onze mentale gezondheid centraal staat!</h1>
+        <h1 class="a3" style="color: black;">Draag ook bij aan een samenleving waarin<br> onze mentale gezondheid centraal staat!</h1>
         <p class="a2">We willen allemaal weten dat we er toe doen, dat we iets bijdragen aan de wereld. Indien dit gevoel ontbreekt,<br> proberen we het op te vullen. Bijvoorbeeld door alsmaar te willen presteren, of misschien verdoof je de pijn door te shoppen<br> of met alcohol. Wellicht keer jij je naar binnen en vertel je jezelf dat je niks waard bent.</p>
         <p class="a2">Op dit moment zijn er teveel jongeren die het gevoel ervaren niet goed genoeg te zijn, en deze pijn op verschillende manieren <br> proberen op te vullen - met alle gevolgen van dien. Het is daarom de missie van de Transformers Community om <br> jongeren te empoweren om mentaal gezond te zijn. Om jongeren de tools en kennis te geven waarmee <br> zij hun zelfbeeld en gevoel van eigenwaarde versterken. En daar kunnen we wel wat handjes bij gebruiken!</p>
         <button style="font-size: 18px;">
