@@ -63,11 +63,12 @@ en help anderen<br> om de beste versie van zichzelf te zijn.<br>
         </button>      
       </div>
       <div class="ali3">
-        <h1>Als vrijwilliger</h1>
-        <ul>
+        <h1>Als vrijwilliger:</h1>
+        <ul class="vrijwilliger">
           <li>Leer je zelf meer over mentale gezondheid</li>
           <li>Kan jij met jouw skills en interesses bijdragen aan een wereld waarin<br> mensen voelen dat ze er mogen zijn en ertoe doen </li>
           <li>Kijken we samen hoe jouw vrijwilligerservaring bijdraagt aan jou CV<br> en persoonlijke groei</li>
+          <li>Kan je je flexibel inzetten voor zowel een kortere als langere periode; <br>we kijken samen wat jouw agenda toelaat.</li>        
         </ul> 
       </div>
     </body>
