@@ -1,4 +1,4 @@
-<?php $this->layout('layouts::website');?>
+<?php $this->layout('layouts::website4');?>
 
 <h1>Dashboard</h1>
 

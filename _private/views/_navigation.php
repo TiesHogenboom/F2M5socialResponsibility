@@ -1,15 +1,18 @@
-<ul>
-        <li>
-            <a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( 'home' ) ): ?> class="active"<?php endif ?>>Home</a>
-            <a href="<?php echo url( 'registreren' ) ?>"<?php if ( current_route_is( 'registreren' ) ): ?> class="active"<?php endif ?>>Registreren</a>
-                <?php if(isLoggedIn()):?>
-                    <?php echo getLoggedInUserEmail(); ?>
-                <?php endif;?>
-                    <?php if(isLoggedIn()):?>
-                        <a href="<?php echo url( 'logout' ) ?>">Uitloggen</a>
-                    <?php else:  ?>
-                        <a href="<?php echo url( 'login.form' ) ?>"<?php if ( current_route_is( 'login.form' ) ): ?> class="active"<?php endif ?>>Inloggen</a>
-                <?php endif;?>
-            </li>                     
-</ul>
+
+<nav class="navbar">
+        <div class="brand-title"><img style="float: left;" src="/images/Home_Images/Logo.png" alt=""></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            
+            <li><a class="regi" href="<?php echo url( 'logout' ) ?>"<?php if ( current_route_is( 'logout' ) ): ?> class="active"<?php endif ?>>Uitloggen</a></li>
+
+          </ul>
+        </div>
+      </nav>
+
 
