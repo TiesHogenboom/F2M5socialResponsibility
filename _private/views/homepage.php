@@ -22,6 +22,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transformers - Home</title>
 
+    <link rel="stylesheet" href="<?php echo site_url("/css/nav.css");?>">
+    <link rel="stylesheet" href="<?php echo site_url("/css/home.css");?>">
+    <link rel="stylesheet" href="<?php echo site_url("/css/footer.css");?>">
+
     <!-- Libaries -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -31,9 +35,7 @@
     <script src="script.js"></script>
     <script src="/js/nav.js"></script>
 
-    <link rel="stylesheet" href="<?php echo site_url("/css/nav.css");?>">
-    <link rel="stylesheet" href="<?php echo site_url("/css/home.css");?>">
-    <link rel="stylesheet" href="<?php echo site_url("/css/footer.css");?>">
+
 </head>
 
 <style>
