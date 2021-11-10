@@ -10,12 +10,13 @@ namespace Website\Controllers;
  * Geeft de gegevens aan de "view" laag (HTML template) om weer te geven
  *
  */
-class WebsiteController {
+class AdminController {
 
-	public function home() {
+	public function index() {
+
 
 		$template_engine = get_template_engine();
-		echo $template_engine->render('homepage');
+		echo $template_engine->render('admin/index');
 
 	}
 
