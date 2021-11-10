@@ -2,28 +2,121 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
-	top: 70px;
+	font-family: 'Noto Bold Display', sans-serif;
+	
 	
     
 }
 
 body{
-	height: 100vh;
-	width: 100%;
+	font-family: 'Noto Bold Display', sans-serif;
+    background-color: #3F5FFF;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
+.frm{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    
+}
 .container{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 100px;
+	
+}
+ul{
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    
+}
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    float: left;
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.regi{
+    border-radius: 10px;
+    background-color: #ff6016;
+}
+.regi:hover{
+    background-color: rgb(68, 68, 246);
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(190, 190, 190, 0.527);
+    color: white;
+    width: 100%;
+    font-family: 'Noto Bold Display', sans-serif;
+}
+.navbar-links {
+    height: 100%;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
 }
 
-.container:after{
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+
+.navbar-links li {
+    list-style: none;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 20px;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(68, 68, 246);
+    border-radius: 10px;
+}
+button {
+    background-color: #ff6016;
+    height: 50px;
+    border-radius: 11px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    box-shadow: black;
+    border: solid 2px black;
+}
+
+/*.container:after{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -34,7 +127,7 @@ body{
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
-}
+}*/
 .contact-box{
 	max-width: 850px;
 	display: grid;
@@ -44,6 +137,7 @@ body{
 	text-align: center;
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+
 }
 
 .left{
@@ -125,6 +219,7 @@ textarea{
 .footer2{
     background-color: rgb(43, 42, 42);
     height: 100px;
+	font-family: 'Noto Bold Display', sans-serif;
     
     
   }
@@ -139,6 +234,7 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: center;
+	font-family: 'Noto Bold Display', sans-serif;
 
   }
   
@@ -155,6 +251,7 @@ textarea{
     align-items: center;
     justify-content: center;
 	margin-left: 50px;
+    
     
     
 
@@ -198,7 +295,7 @@ textarea{
     	width: 100%;
 	}
 	.knop{
-		float: left;
+		float: right;
 		border-right:1px solid #bbb;
 		  
 
@@ -216,6 +313,23 @@ textarea{
 	.knop a:hover:not(.active) {
 		background-color: #111;
 	  }
+	  ::-webkit-scrollbar {
+		width: 10px
+	  }
+	  
+	  ::-webkit-scrollbar-track {
+		background: #5626CA;
+		background-color: #5626CA;
+	  }
+	  
+	  ::-webkit-scrollbar-thumb {
+		background: #F4FAFF;
+		border-radius: 10px
+	  }
+	  
+	  ::-webkit-scrollbar-thumb:hover {
+		background: #F4FAFF
+	  }
 
   
 @media screen and (max-width: 880px){
@@ -225,6 +339,58 @@ textarea{
 	.left{
 		height: 200px;
 	}
+	.navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .socials{
+        letter-spacing: 30px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+        font-size: 50px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        
+        
+        
+    
+      }
+      .frm{
+          width: 100%;
+
+      }
 	
 }
   
