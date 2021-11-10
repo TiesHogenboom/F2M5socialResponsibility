@@ -1,6 +1,6 @@
 <?php $this->layout('layouts::website');?>
 
-<<<<<<< HEAD
+
 <?php $this->start('sidebar')?>
 <!-- Door sections toe te voegen aan je layout kun je deze per pagina aanpassen -->
 <div class="top-10">
@@ -15,14 +15,6 @@
 </div>
 <?php $this->stop()?>
 
-<h1>Welkom</h1>
-
-<p>Dit is de start van jullie project website!</p>
-
-
-
-
-=======
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -399,4 +391,4 @@ en we samen leren hoe je die momenten omzet naar kracht.
 </script>
 
 </html>
->>>>>>> 9ff602a6b5202024bb9bfb69600624919731a743
+

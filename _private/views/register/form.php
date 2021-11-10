@@ -1,8 +1,27 @@
-<?php $this->layout('layouts::website');?>
+<?php $this->layout('layouts::website1');?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<h3>Inschrijven</h3>
 
-<p>Schrijf u snel in om gebruik te maken van de fantastische features</p>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+    input {
+        border: 1px powderblue;
+        padding: 1px;
+        margin: 30px;
+        font-size: xx-large;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+</style>
+
+
+
+   
+
+
+
+
+
 
 <form action="<?php echo url("register.handle")?>" method="POST">
     <div class="form-group">
@@ -22,3 +41,6 @@
     </div>
     <button type="submit" class="btn btn-primary">Registreren</button>
 </form>
+
+
+

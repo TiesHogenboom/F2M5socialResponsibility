@@ -44,7 +44,7 @@ class RegistrationController {
 
 
 		$template_engine = get_template_engine();
-		echo $template_engine->render('register_form', ['errors' => $result ['errors']]);
+		echo $template_engine->render('register/form', ['errors' => $result ['errors']]);
 	}
 
 

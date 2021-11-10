@@ -30,6 +30,11 @@ class WebsiteController {
 		echo $template_engine->render('OverOns');
 
 	}
+	public function ContactForm(){
+		$template_engine = get_template_engine();
+		echo $template_engine->render('ContactForm');
+
+	}
 
 }
 
